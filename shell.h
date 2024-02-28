@@ -37,7 +37,7 @@
 extern char **environ;
 
 /**
- * Linked list structure for strings.
+ * Linked list structure.
  */
 typedef struct liststr
 {
@@ -206,4 +206,4 @@ int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
 
-#endif /* _SHELL_H_ */
+#endif
